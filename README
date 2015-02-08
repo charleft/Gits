@@ -3,4 +3,16 @@ Gits
 
 Praticas con Git/Github
 
-Texto texto y más texto...
+git init    :   Inicia repositorio
+git status  :   Verifica estado del proyecto
+
+git log --oneline --graph --all
+git config --global alias.nicelog 'log --oneline --graph --all'
+
+
+git reset --soft
+git reset --mixed
+git reset --hard
+
+git checkout <commit | branch>
+git merge <altBranch>
